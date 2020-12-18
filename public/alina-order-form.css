@@ -1,0 +1,24 @@
+body .form-signin {
+  max-width: 320px;
+}
+
+@media (min-width: 600px) {
+  body .form-signin {
+    max-width: 420px;
+  }
+}
+
+@media (min-width: 840px) {
+  body .form-signin {
+    max-width: 520px;
+  }
+}
+
+body .btn.btn-lg.btn-primary.btn-block {
+  background: #50a95a;
+  border-color: #50a95a;
+}
+
+body .btn.btn-lg.btn-primary.btn-block:hover {
+  background: #30890a;
+}
