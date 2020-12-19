@@ -127,6 +127,7 @@ const App = () => {
                 text: 'Terimakasih ' + name + '!\r\nTim kami akan segera menghubungi Anda di nomor ' + phone + '.',
                 color: '#4CAF50'
               })
+              window.open('https://alinagroup.agency/sukses')
             } else {
               console.log('Response is unknown', json)
               setAlert({ text: 'Terjadi kesalahan, mohon ulangi lagi', color: '#FF9800' })
