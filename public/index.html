@@ -42,6 +42,38 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="./floating-labels.css">
     <link rel="stylesheet" href="./alina-order-form.css">
+    <!-- -->
+    <script src="https://connect.facebook.net/signals/config/1181994375530113?v=2.9.30&amp;r=stable" async=""></script>
+    <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1181994375530113');
+      fbq('track', 'PageView', {
+        "source": "landingpress",
+        "version": "3.1.0.1"
+      });
+      </script>
+    <!-- End Facebook Pixel Code -->
+    <script>
+      if ( typeof(fbq) != 'undefined' ) { 
+        fbq('track', "InitiateCheckout", {
+          "source": "landingpress",
+          "version": "3.1.0.1",
+          "domain": "alinagroup.agency",
+          "campaign_url": "formulir",
+          "content_name": "Alina Form",
+          "post_type": "page",
+          "value": "0.00",
+          "currency": "IDR"
+        });
+      }
+    </script>
+    <!-- -->
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -56,5 +88,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <noscript>
+      <img height="1" width="1" alt="fbpx" style="display:none" src="https://www.facebook.com/tr?id=1181994375530113&ev=PageView&noscript=1" />
+    </noscript>
   </body>
 </html>
