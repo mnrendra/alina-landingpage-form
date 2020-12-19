@@ -5,7 +5,7 @@ import './App.css'
 import listOfCountryCodes from './utils/listOfCountryCodes'
 import listOfIdCellCodes from './utils/listOfIdCellCodes'
 
-const API_URL = 'https://api.puspanegara.com'
+const API_URL = 'https://api.alinagroup.agency'
 
 const App = () => {
   const [phone, setPhone] = useState('')
@@ -127,7 +127,7 @@ const App = () => {
                 text: 'Terimakasih ' + name + '!\r\nTim kami akan segera menghubungi Anda di nomor ' + phone + '.',
                 color: '#4CAF50'
               })
-              window.open('https://alinagroup.agency/sukses')
+              window.open('https://alinagroup.agency/sukses', '_self')
             } else {
               console.log('Response is unknown', json)
               setAlert({ text: 'Terjadi kesalahan, mohon ulangi lagi', color: '#FF9800' })
