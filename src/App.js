@@ -159,7 +159,7 @@ const App = () => {
             id='inputPhone'
             className='form-control'
             placeholder='Nomor Whatsapp'
-            type='text'
+            type='number'
             style={phoneElStyle}
             required
           />
